@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_assignment
+  commentId: N:ASE_assignment
+  id: ASE_assignment
+  children:
+  - ASE_assignment.Error
+  langs:
+  - csharp
+  - vb
+  name: ASE_assignment
+  nameWithType: ASE_assignment
+  fullName: ASE_assignment
+  type: Namespace
+  assemblies:
+  - ASE Assignment
+references:
+- uid: ASE_assignment.Error
+  commentId: T:ASE_assignment.Error
+  href: ASE_assignment.Error.html
+  name: Error
+  nameWithType: Error
+  fullName: ASE_assignment.Error

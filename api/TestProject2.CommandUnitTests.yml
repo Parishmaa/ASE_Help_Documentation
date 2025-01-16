@@ -1,0 +1,618 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestProject2.CommandUnitTests
+  commentId: T:TestProject2.CommandUnitTests
+  id: CommandUnitTests
+  parent: TestProject2
+  children:
+  - TestProject2.CommandUnitTests.Setup
+  - TestProject2.CommandUnitTests.Test_RunCommandWithInvalidParameters_ShouldThrowException
+  - TestProject2.CommandUnitTests.Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly
+  - TestProject2.CommandUnitTests.Test_RunMultipleCommands_ShouldExecuteCorrectly
+  - TestProject2.CommandUnitTests.Test_RunProgramWithEmptyProgram_ShouldNotThrowException
+  - TestProject2.CommandUnitTests.Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence
+  - TestProject2.CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  langs:
+  - csharp
+  - vb
+  name: CommandUnitTests
+  nameWithType: CommandUnitTests
+  fullName: TestProject2.CommandUnitTests
+  type: Class
+  source:
+    remote:
+      path: TestProject1/UnitTest2.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: CommandUnitTests
+    path: ../TestProject1/UnitTest2.cs
+    startLine: 12
+  assemblies:
+  - TestProject1
+  namespace: TestProject2
+  summary: Unit tests for testing command execution and interaction with the stored program and canvas.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class CommandUnitTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class CommandUnitTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: TestProject2.CommandUnitTests.Setup
+  commentId: M:TestProject2.CommandUnitTests.Setup
+  id: Setup
+  parent: TestProject2.CommandUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Setup()
+  nameWithType: CommandUnitTests.Setup()
+  fullName: TestProject2.CommandUnitTests.Setup()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest2.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Setup
+    path: ../TestProject1/UnitTest2.cs
+    startLine: 30
+  assemblies:
+  - TestProject1
+  namespace: TestProject2
+  summary: Initializes the mock objects and dependencies before each test method is executed.
+  example: []
+  syntax:
+    content: >-
+      [TestInitialize]
+
+      public void Setup()
+    content.vb: >-
+      <TestInitialize>
+
+      Public Sub Setup()
+  overload: TestProject2.CommandUnitTests.Setup*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute.#ctor
+    arguments: []
+- uid: TestProject2.CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  commentId: M:TestProject2.CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  id: Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  parent: TestProject2.CommandUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg()
+  nameWithType: CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg()
+  fullName: TestProject2.CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest2.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+    path: ../TestProject1/UnitTest2.cs
+    startLine: 44
+  assemblies:
+  - TestProject1
+  namespace: TestProject2
+  summary: Tests running a single command and ensures no exception or unexpected changes occur.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg()
+  overload: TestProject2.CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject2.CommandUnitTests.Test_RunMultipleCommands_ShouldExecuteCorrectly
+  commentId: M:TestProject2.CommandUnitTests.Test_RunMultipleCommands_ShouldExecuteCorrectly
+  id: Test_RunMultipleCommands_ShouldExecuteCorrectly
+  parent: TestProject2.CommandUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Test_RunMultipleCommands_ShouldExecuteCorrectly()
+  nameWithType: CommandUnitTests.Test_RunMultipleCommands_ShouldExecuteCorrectly()
+  fullName: TestProject2.CommandUnitTests.Test_RunMultipleCommands_ShouldExecuteCorrectly()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest2.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_RunMultipleCommands_ShouldExecuteCorrectly
+    path: ../TestProject1/UnitTest2.cs
+    startLine: 59
+  assemblies:
+  - TestProject1
+  namespace: TestProject2
+  summary: Tests running multiple commands in sequence and checks if the final position is updated correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_RunMultipleCommands_ShouldExecuteCorrectly()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_RunMultipleCommands_ShouldExecuteCorrectly()
+  overload: TestProject2.CommandUnitTests.Test_RunMultipleCommands_ShouldExecuteCorrectly*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject2.CommandUnitTests.Test_RunCommandWithInvalidParameters_ShouldThrowException
+  commentId: M:TestProject2.CommandUnitTests.Test_RunCommandWithInvalidParameters_ShouldThrowException
+  id: Test_RunCommandWithInvalidParameters_ShouldThrowException
+  parent: TestProject2.CommandUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Test_RunCommandWithInvalidParameters_ShouldThrowException()
+  nameWithType: CommandUnitTests.Test_RunCommandWithInvalidParameters_ShouldThrowException()
+  fullName: TestProject2.CommandUnitTests.Test_RunCommandWithInvalidParameters_ShouldThrowException()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest2.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_RunCommandWithInvalidParameters_ShouldThrowException
+    path: ../TestProject1/UnitTest2.cs
+    startLine: 76
+  assemblies:
+  - TestProject1
+  namespace: TestProject2
+  summary: Tests that running a command with invalid parameters throws a StoredProgramException.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(StoredProgramException))]
+
+      public void Test_RunCommandWithInvalidParameters_ShouldThrowException()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(StoredProgramException))>
+
+      Public Sub Test_RunCommandWithInvalidParameters_ShouldThrowException()
+  overload: TestProject2.CommandUnitTests.Test_RunCommandWithInvalidParameters_ShouldThrowException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.StoredProgramException
+- uid: TestProject2.CommandUnitTests.Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly
+  commentId: M:TestProject2.CommandUnitTests.Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly
+  id: Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly
+  parent: TestProject2.CommandUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly()
+  nameWithType: CommandUnitTests.Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly()
+  fullName: TestProject2.CommandUnitTests.Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest2.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly
+    path: ../TestProject1/UnitTest2.cs
+    startLine: 91
+  assemblies:
+  - TestProject1
+  namespace: TestProject2
+  summary: Tests that running a valid command updates the canvas position correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly()
+  overload: TestProject2.CommandUnitTests.Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject2.CommandUnitTests.Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence
+  commentId: M:TestProject2.CommandUnitTests.Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence
+  id: Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence
+  parent: TestProject2.CommandUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence()
+  nameWithType: CommandUnitTests.Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence()
+  fullName: TestProject2.CommandUnitTests.Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest2.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence
+    path: ../TestProject1/UnitTest2.cs
+    startLine: 109
+  assemblies:
+  - TestProject1
+  namespace: TestProject2
+  summary: Tests running a program with multiple valid commands and ensures the position is updated correctly in sequence.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence()
+  overload: TestProject2.CommandUnitTests.Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject2.CommandUnitTests.Test_RunProgramWithEmptyProgram_ShouldNotThrowException
+  commentId: M:TestProject2.CommandUnitTests.Test_RunProgramWithEmptyProgram_ShouldNotThrowException
+  id: Test_RunProgramWithEmptyProgram_ShouldNotThrowException
+  parent: TestProject2.CommandUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Test_RunProgramWithEmptyProgram_ShouldNotThrowException()
+  nameWithType: CommandUnitTests.Test_RunProgramWithEmptyProgram_ShouldNotThrowException()
+  fullName: TestProject2.CommandUnitTests.Test_RunProgramWithEmptyProgram_ShouldNotThrowException()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest2.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_RunProgramWithEmptyProgram_ShouldNotThrowException
+    path: ../TestProject1/UnitTest2.cs
+    startLine: 127
+  assemblies:
+  - TestProject1
+  namespace: TestProject2
+  summary: Tests running an empty program and ensures that no exceptions are thrown.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_RunProgramWithEmptyProgram_ShouldNotThrowException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_RunProgramWithEmptyProgram_ShouldNotThrowException()
+  overload: TestProject2.CommandUnitTests.Test_RunProgramWithEmptyProgram_ShouldNotThrowException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: TestProject2
+  commentId: N:TestProject2
+  href: TestProject2.html
+  name: TestProject2
+  nameWithType: TestProject2
+  fullName: TestProject2
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TestProject2.CommandUnitTests.Setup*
+  commentId: Overload:TestProject2.CommandUnitTests.Setup
+  href: TestProject2.CommandUnitTests.html#TestProject2_CommandUnitTests_Setup
+  name: Setup
+  nameWithType: CommandUnitTests.Setup
+  fullName: TestProject2.CommandUnitTests.Setup
+- uid: TestProject2.CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg*
+  commentId: Overload:TestProject2.CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  href: TestProject2.CommandUnitTests.html#TestProject2_CommandUnitTests_Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  name: Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  nameWithType: CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  fullName: TestProject2.CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+- uid: TestProject2.CommandUnitTests.Test_RunMultipleCommands_ShouldExecuteCorrectly*
+  commentId: Overload:TestProject2.CommandUnitTests.Test_RunMultipleCommands_ShouldExecuteCorrectly
+  href: TestProject2.CommandUnitTests.html#TestProject2_CommandUnitTests_Test_RunMultipleCommands_ShouldExecuteCorrectly
+  name: Test_RunMultipleCommands_ShouldExecuteCorrectly
+  nameWithType: CommandUnitTests.Test_RunMultipleCommands_ShouldExecuteCorrectly
+  fullName: TestProject2.CommandUnitTests.Test_RunMultipleCommands_ShouldExecuteCorrectly
+- uid: TestProject2.CommandUnitTests.Test_RunCommandWithInvalidParameters_ShouldThrowException*
+  commentId: Overload:TestProject2.CommandUnitTests.Test_RunCommandWithInvalidParameters_ShouldThrowException
+  href: TestProject2.CommandUnitTests.html#TestProject2_CommandUnitTests_Test_RunCommandWithInvalidParameters_ShouldThrowException
+  name: Test_RunCommandWithInvalidParameters_ShouldThrowException
+  nameWithType: CommandUnitTests.Test_RunCommandWithInvalidParameters_ShouldThrowException
+  fullName: TestProject2.CommandUnitTests.Test_RunCommandWithInvalidParameters_ShouldThrowException
+- uid: TestProject2.CommandUnitTests.Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly*
+  commentId: Overload:TestProject2.CommandUnitTests.Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly
+  href: TestProject2.CommandUnitTests.html#TestProject2_CommandUnitTests_Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly
+  name: Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly
+  nameWithType: CommandUnitTests.Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly
+  fullName: TestProject2.CommandUnitTests.Test_RunCommandWithValidParameters_ShouldUpdateCanvasCorrectly
+- uid: TestProject2.CommandUnitTests.Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence*
+  commentId: Overload:TestProject2.CommandUnitTests.Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence
+  href: TestProject2.CommandUnitTests.html#TestProject2_CommandUnitTests_Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence
+  name: Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence
+  nameWithType: CommandUnitTests.Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence
+  fullName: TestProject2.CommandUnitTests.Test_RunProgramWithMultipleValidCommands_ShouldExecuteInSequence
+- uid: TestProject2.CommandUnitTests.Test_RunProgramWithEmptyProgram_ShouldNotThrowException*
+  commentId: Overload:TestProject2.CommandUnitTests.Test_RunProgramWithEmptyProgram_ShouldNotThrowException
+  href: TestProject2.CommandUnitTests.html#TestProject2_CommandUnitTests_Test_RunProgramWithEmptyProgram_ShouldNotThrowException
+  name: Test_RunProgramWithEmptyProgram_ShouldNotThrowException
+  nameWithType: CommandUnitTests.Test_RunProgramWithEmptyProgram_ShouldNotThrowException
+  fullName: TestProject2.CommandUnitTests.Test_RunProgramWithEmptyProgram_ShouldNotThrowException

@@ -1,0 +1,1032 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestProject1.CanvasTests
+  commentId: T:TestProject1.CanvasTests
+  id: CanvasTests
+  parent: TestProject1
+  children:
+  - TestProject1.CanvasTests.CustomCommandFactory_InvalidCommand_ThrowsException
+  - TestProject1.CanvasTests.CustomCommandFactory_TriCommand_ReturnsCorrectInstance
+  - TestProject1.CanvasTests.CustomCommandFactory_WriteCommand_ReturnsCorrectInstance
+  - TestProject1.CanvasTests.SetUp
+  - TestProject1.CanvasTests.Test_Circle_DrawsCircleOutlineCorrectly
+  - TestProject1.CanvasTests.Test_Circle_InvalidRadius_ThrowsException
+  - TestProject1.CanvasTests.Test_Clear_ResetsCanvas
+  - TestProject1.CanvasTests.Test_DrawTo_Command_UpdatesPositionCorrectly
+  - TestProject1.CanvasTests.Test_MoveTo_Command_UpdatesPositionCorrectly
+  - TestProject1.CanvasTests.Test_MultilineProgram_ExecutesMultipleCommandsCorrectly
+  - TestProject1.CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsException
+  - TestProject1.CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsParserException
+  - TestProject1.CanvasTests.Test_Rect_DrawsRectangleCorrectly
+  - TestProject1.CanvasTests.Test_SetColour_UpdatesPenColor
+  - TestProject1.CanvasTests.Test_Tri_DrawsTriangleCorrectly
+  - TestProject1.CanvasTests.Test_WriteText_AddsTextToCanvas
+  langs:
+  - csharp
+  - vb
+  name: CanvasTests
+  nameWithType: CanvasTests
+  fullName: TestProject1.CanvasTests
+  type: Class
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: CanvasTests
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 12
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Unit tests for the canvas and related functionality, including commands like MoveTo, DrawTo, Circle, and more.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class CanvasTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class CanvasTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: TestProject1.CanvasTests.SetUp
+  commentId: M:TestProject1.CanvasTests.SetUp
+  id: SetUp
+  parent: TestProject1.CanvasTests
+  langs:
+  - csharp
+  - vb
+  name: SetUp()
+  nameWithType: CanvasTests.SetUp()
+  fullName: TestProject1.CanvasTests.SetUp()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: SetUp
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 23
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Initializes resources before each test method is executed.
+  example: []
+  syntax:
+    content: >-
+      [TestInitialize]
+
+      public void SetUp()
+    content.vb: >-
+      <TestInitialize>
+
+      Public Sub SetUp()
+  overload: TestProject1.CanvasTests.SetUp*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute.#ctor
+    arguments: []
+- uid: TestProject1.CanvasTests.Test_MoveTo_Command_UpdatesPositionCorrectly
+  commentId: M:TestProject1.CanvasTests.Test_MoveTo_Command_UpdatesPositionCorrectly
+  id: Test_MoveTo_Command_UpdatesPositionCorrectly
+  parent: TestProject1.CanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_MoveTo_Command_UpdatesPositionCorrectly()
+  nameWithType: CanvasTests.Test_MoveTo_Command_UpdatesPositionCorrectly()
+  fullName: TestProject1.CanvasTests.Test_MoveTo_Command_UpdatesPositionCorrectly()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_MoveTo_Command_UpdatesPositionCorrectly
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 35
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Tests that the MoveTo command updates the pen position correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_MoveTo_Command_UpdatesPositionCorrectly()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_MoveTo_Command_UpdatesPositionCorrectly()
+  overload: TestProject1.CanvasTests.Test_MoveTo_Command_UpdatesPositionCorrectly*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.CanvasTests.Test_DrawTo_Command_UpdatesPositionCorrectly
+  commentId: M:TestProject1.CanvasTests.Test_DrawTo_Command_UpdatesPositionCorrectly
+  id: Test_DrawTo_Command_UpdatesPositionCorrectly
+  parent: TestProject1.CanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_DrawTo_Command_UpdatesPositionCorrectly()
+  nameWithType: CanvasTests.Test_DrawTo_Command_UpdatesPositionCorrectly()
+  fullName: TestProject1.CanvasTests.Test_DrawTo_Command_UpdatesPositionCorrectly()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_DrawTo_Command_UpdatesPositionCorrectly
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 53
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Tests that the DrawTo command updates the pen position correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_DrawTo_Command_UpdatesPositionCorrectly()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_DrawTo_Command_UpdatesPositionCorrectly()
+  overload: TestProject1.CanvasTests.Test_DrawTo_Command_UpdatesPositionCorrectly*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.CanvasTests.Test_MultilineProgram_ExecutesMultipleCommandsCorrectly
+  commentId: M:TestProject1.CanvasTests.Test_MultilineProgram_ExecutesMultipleCommandsCorrectly
+  id: Test_MultilineProgram_ExecutesMultipleCommandsCorrectly
+  parent: TestProject1.CanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_MultilineProgram_ExecutesMultipleCommandsCorrectly()
+  nameWithType: CanvasTests.Test_MultilineProgram_ExecutesMultipleCommandsCorrectly()
+  fullName: TestProject1.CanvasTests.Test_MultilineProgram_ExecutesMultipleCommandsCorrectly()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_MultilineProgram_ExecutesMultipleCommandsCorrectly
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 73
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Tests that a multiline program executes multiple commands correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_MultilineProgram_ExecutesMultipleCommandsCorrectly()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_MultilineProgram_ExecutesMultipleCommandsCorrectly()
+  overload: TestProject1.CanvasTests.Test_MultilineProgram_ExecutesMultipleCommandsCorrectly*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsParserException
+  commentId: M:TestProject1.CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsParserException
+  id: Test_MultilineProgram_InvalidCommand_ThrowsParserException
+  parent: TestProject1.CanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_MultilineProgram_InvalidCommand_ThrowsParserException()
+  nameWithType: CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsParserException()
+  fullName: TestProject1.CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsParserException()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_MultilineProgram_InvalidCommand_ThrowsParserException
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 92
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Tests that a multiline program with an invalid command format throws a ParserException.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(ParserException))]
+
+      public void Test_MultilineProgram_InvalidCommand_ThrowsParserException()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(ParserException))>
+
+      Public Sub Test_MultilineProgram_InvalidCommand_ThrowsParserException()
+  overload: TestProject1.CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsParserException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.ParserException
+- uid: TestProject1.CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsException
+  commentId: M:TestProject1.CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsException
+  id: Test_MultilineProgram_InvalidCommand_ThrowsException
+  parent: TestProject1.CanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_MultilineProgram_InvalidCommand_ThrowsException()
+  nameWithType: CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsException()
+  fullName: TestProject1.CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsException()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_MultilineProgram_InvalidCommand_ThrowsException
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 108
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Tests that a multiline program with an invalid command syntax throws a ParserException.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(ParserException))]
+
+      public void Test_MultilineProgram_InvalidCommand_ThrowsException()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(ParserException))>
+
+      Public Sub Test_MultilineProgram_InvalidCommand_ThrowsException()
+  overload: TestProject1.CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.ParserException
+- uid: TestProject1.CanvasTests.Test_Circle_InvalidRadius_ThrowsException
+  commentId: M:TestProject1.CanvasTests.Test_Circle_InvalidRadius_ThrowsException
+  id: Test_Circle_InvalidRadius_ThrowsException
+  parent: TestProject1.CanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_Circle_InvalidRadius_ThrowsException()
+  nameWithType: CanvasTests.Test_Circle_InvalidRadius_ThrowsException()
+  fullName: TestProject1.CanvasTests.Test_Circle_InvalidRadius_ThrowsException()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_Circle_InvalidRadius_ThrowsException
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 124
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Tests that providing an invalid radius to the Circle command throws a CanvasException.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_Circle_InvalidRadius_ThrowsException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_Circle_InvalidRadius_ThrowsException()
+  overload: TestProject1.CanvasTests.Test_Circle_InvalidRadius_ThrowsException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.CanvasTests.Test_SetColour_UpdatesPenColor
+  commentId: M:TestProject1.CanvasTests.Test_SetColour_UpdatesPenColor
+  id: Test_SetColour_UpdatesPenColor
+  parent: TestProject1.CanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_SetColour_UpdatesPenColor()
+  nameWithType: CanvasTests.Test_SetColour_UpdatesPenColor()
+  fullName: TestProject1.CanvasTests.Test_SetColour_UpdatesPenColor()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_SetColour_UpdatesPenColor
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 137
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Tests that the SetColour command updates the pen color correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_SetColour_UpdatesPenColor()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_SetColour_UpdatesPenColor()
+  overload: TestProject1.CanvasTests.Test_SetColour_UpdatesPenColor*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.CanvasTests.Test_Clear_ResetsCanvas
+  commentId: M:TestProject1.CanvasTests.Test_Clear_ResetsCanvas
+  id: Test_Clear_ResetsCanvas
+  parent: TestProject1.CanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_Clear_ResetsCanvas()
+  nameWithType: CanvasTests.Test_Clear_ResetsCanvas()
+  fullName: TestProject1.CanvasTests.Test_Clear_ResetsCanvas()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_Clear_ResetsCanvas
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 153
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Tests that the Clear command resets the canvas correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_Clear_ResetsCanvas()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_Clear_ResetsCanvas()
+  overload: TestProject1.CanvasTests.Test_Clear_ResetsCanvas*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.CanvasTests.Test_Rect_DrawsRectangleCorrectly
+  commentId: M:TestProject1.CanvasTests.Test_Rect_DrawsRectangleCorrectly
+  id: Test_Rect_DrawsRectangleCorrectly
+  parent: TestProject1.CanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_Rect_DrawsRectangleCorrectly()
+  nameWithType: CanvasTests.Test_Rect_DrawsRectangleCorrectly()
+  fullName: TestProject1.CanvasTests.Test_Rect_DrawsRectangleCorrectly()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_Rect_DrawsRectangleCorrectly
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 170
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Tests that the Rect command draws a rectangle correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_Rect_DrawsRectangleCorrectly()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_Rect_DrawsRectangleCorrectly()
+  overload: TestProject1.CanvasTests.Test_Rect_DrawsRectangleCorrectly*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.CanvasTests.Test_Tri_DrawsTriangleCorrectly
+  commentId: M:TestProject1.CanvasTests.Test_Tri_DrawsTriangleCorrectly
+  id: Test_Tri_DrawsTriangleCorrectly
+  parent: TestProject1.CanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_Tri_DrawsTriangleCorrectly()
+  nameWithType: CanvasTests.Test_Tri_DrawsTriangleCorrectly()
+  fullName: TestProject1.CanvasTests.Test_Tri_DrawsTriangleCorrectly()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_Tri_DrawsTriangleCorrectly
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 187
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Tests that the Tri command draws a triangle correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_Tri_DrawsTriangleCorrectly()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_Tri_DrawsTriangleCorrectly()
+  overload: TestProject1.CanvasTests.Test_Tri_DrawsTriangleCorrectly*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.CanvasTests.Test_WriteText_AddsTextToCanvas
+  commentId: M:TestProject1.CanvasTests.Test_WriteText_AddsTextToCanvas
+  id: Test_WriteText_AddsTextToCanvas
+  parent: TestProject1.CanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_WriteText_AddsTextToCanvas()
+  nameWithType: CanvasTests.Test_WriteText_AddsTextToCanvas()
+  fullName: TestProject1.CanvasTests.Test_WriteText_AddsTextToCanvas()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_WriteText_AddsTextToCanvas
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 204
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Tests that the WriteText command adds text to the canvas correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_WriteText_AddsTextToCanvas()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_WriteText_AddsTextToCanvas()
+  overload: TestProject1.CanvasTests.Test_WriteText_AddsTextToCanvas*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.CanvasTests.Test_Circle_DrawsCircleOutlineCorrectly
+  commentId: M:TestProject1.CanvasTests.Test_Circle_DrawsCircleOutlineCorrectly
+  id: Test_Circle_DrawsCircleOutlineCorrectly
+  parent: TestProject1.CanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Test_Circle_DrawsCircleOutlineCorrectly()
+  nameWithType: CanvasTests.Test_Circle_DrawsCircleOutlineCorrectly()
+  fullName: TestProject1.CanvasTests.Test_Circle_DrawsCircleOutlineCorrectly()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: Test_Circle_DrawsCircleOutlineCorrectly
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 221
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Tests that the Circle command draws a circle outline correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_Circle_DrawsCircleOutlineCorrectly()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_Circle_DrawsCircleOutlineCorrectly()
+  overload: TestProject1.CanvasTests.Test_Circle_DrawsCircleOutlineCorrectly*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.CanvasTests.CustomCommandFactory_TriCommand_ReturnsCorrectInstance
+  commentId: M:TestProject1.CanvasTests.CustomCommandFactory_TriCommand_ReturnsCorrectInstance
+  id: CustomCommandFactory_TriCommand_ReturnsCorrectInstance
+  parent: TestProject1.CanvasTests
+  langs:
+  - csharp
+  - vb
+  name: CustomCommandFactory_TriCommand_ReturnsCorrectInstance()
+  nameWithType: CanvasTests.CustomCommandFactory_TriCommand_ReturnsCorrectInstance()
+  fullName: TestProject1.CanvasTests.CustomCommandFactory_TriCommand_ReturnsCorrectInstance()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: CustomCommandFactory_TriCommand_ReturnsCorrectInstance
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 239
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Tests that the CustomCommandFactory returns the correct instance for the "tri" command.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CustomCommandFactory_TriCommand_ReturnsCorrectInstance()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CustomCommandFactory_TriCommand_ReturnsCorrectInstance()
+  overload: TestProject1.CanvasTests.CustomCommandFactory_TriCommand_ReturnsCorrectInstance*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.CanvasTests.CustomCommandFactory_WriteCommand_ReturnsCorrectInstance
+  commentId: M:TestProject1.CanvasTests.CustomCommandFactory_WriteCommand_ReturnsCorrectInstance
+  id: CustomCommandFactory_WriteCommand_ReturnsCorrectInstance
+  parent: TestProject1.CanvasTests
+  langs:
+  - csharp
+  - vb
+  name: CustomCommandFactory_WriteCommand_ReturnsCorrectInstance()
+  nameWithType: CanvasTests.CustomCommandFactory_WriteCommand_ReturnsCorrectInstance()
+  fullName: TestProject1.CanvasTests.CustomCommandFactory_WriteCommand_ReturnsCorrectInstance()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: CustomCommandFactory_WriteCommand_ReturnsCorrectInstance
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 251
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Tests that the CustomCommandFactory returns the correct instance for the "write" command.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CustomCommandFactory_WriteCommand_ReturnsCorrectInstance()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CustomCommandFactory_WriteCommand_ReturnsCorrectInstance()
+  overload: TestProject1.CanvasTests.CustomCommandFactory_WriteCommand_ReturnsCorrectInstance*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.CanvasTests.CustomCommandFactory_InvalidCommand_ThrowsException
+  commentId: M:TestProject1.CanvasTests.CustomCommandFactory_InvalidCommand_ThrowsException
+  id: CustomCommandFactory_InvalidCommand_ThrowsException
+  parent: TestProject1.CanvasTests
+  langs:
+  - csharp
+  - vb
+  name: CustomCommandFactory_InvalidCommand_ThrowsException()
+  nameWithType: CanvasTests.CustomCommandFactory_InvalidCommand_ThrowsException()
+  fullName: TestProject1.CanvasTests.CustomCommandFactory_InvalidCommand_ThrowsException()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Parishmaa.git
+    id: CustomCommandFactory_InvalidCommand_ThrowsException
+    path: ../TestProject1/UnitTest1.cs
+    startLine: 263
+  assemblies:
+  - TestProject1
+  namespace: TestProject1
+  summary: Tests that the CustomCommandFactory throws an exception for an invalid command.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CustomCommandFactory_InvalidCommand_ThrowsException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CustomCommandFactory_InvalidCommand_ThrowsException()
+  overload: TestProject1.CanvasTests.CustomCommandFactory_InvalidCommand_ThrowsException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: TestProject1
+  commentId: N:TestProject1
+  href: TestProject1.html
+  name: TestProject1
+  nameWithType: TestProject1
+  fullName: TestProject1
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TestProject1.CanvasTests.SetUp*
+  commentId: Overload:TestProject1.CanvasTests.SetUp
+  href: TestProject1.CanvasTests.html#TestProject1_CanvasTests_SetUp
+  name: SetUp
+  nameWithType: CanvasTests.SetUp
+  fullName: TestProject1.CanvasTests.SetUp
+- uid: TestProject1.CanvasTests.Test_MoveTo_Command_UpdatesPositionCorrectly*
+  commentId: Overload:TestProject1.CanvasTests.Test_MoveTo_Command_UpdatesPositionCorrectly
+  href: TestProject1.CanvasTests.html#TestProject1_CanvasTests_Test_MoveTo_Command_UpdatesPositionCorrectly
+  name: Test_MoveTo_Command_UpdatesPositionCorrectly
+  nameWithType: CanvasTests.Test_MoveTo_Command_UpdatesPositionCorrectly
+  fullName: TestProject1.CanvasTests.Test_MoveTo_Command_UpdatesPositionCorrectly
+- uid: TestProject1.CanvasTests.Test_DrawTo_Command_UpdatesPositionCorrectly*
+  commentId: Overload:TestProject1.CanvasTests.Test_DrawTo_Command_UpdatesPositionCorrectly
+  href: TestProject1.CanvasTests.html#TestProject1_CanvasTests_Test_DrawTo_Command_UpdatesPositionCorrectly
+  name: Test_DrawTo_Command_UpdatesPositionCorrectly
+  nameWithType: CanvasTests.Test_DrawTo_Command_UpdatesPositionCorrectly
+  fullName: TestProject1.CanvasTests.Test_DrawTo_Command_UpdatesPositionCorrectly
+- uid: TestProject1.CanvasTests.Test_MultilineProgram_ExecutesMultipleCommandsCorrectly*
+  commentId: Overload:TestProject1.CanvasTests.Test_MultilineProgram_ExecutesMultipleCommandsCorrectly
+  href: TestProject1.CanvasTests.html#TestProject1_CanvasTests_Test_MultilineProgram_ExecutesMultipleCommandsCorrectly
+  name: Test_MultilineProgram_ExecutesMultipleCommandsCorrectly
+  nameWithType: CanvasTests.Test_MultilineProgram_ExecutesMultipleCommandsCorrectly
+  fullName: TestProject1.CanvasTests.Test_MultilineProgram_ExecutesMultipleCommandsCorrectly
+- uid: TestProject1.CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsParserException*
+  commentId: Overload:TestProject1.CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsParserException
+  href: TestProject1.CanvasTests.html#TestProject1_CanvasTests_Test_MultilineProgram_InvalidCommand_ThrowsParserException
+  name: Test_MultilineProgram_InvalidCommand_ThrowsParserException
+  nameWithType: CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsParserException
+  fullName: TestProject1.CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsParserException
+- uid: TestProject1.CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsException*
+  commentId: Overload:TestProject1.CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsException
+  href: TestProject1.CanvasTests.html#TestProject1_CanvasTests_Test_MultilineProgram_InvalidCommand_ThrowsException
+  name: Test_MultilineProgram_InvalidCommand_ThrowsException
+  nameWithType: CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsException
+  fullName: TestProject1.CanvasTests.Test_MultilineProgram_InvalidCommand_ThrowsException
+- uid: TestProject1.CanvasTests.Test_Circle_InvalidRadius_ThrowsException*
+  commentId: Overload:TestProject1.CanvasTests.Test_Circle_InvalidRadius_ThrowsException
+  href: TestProject1.CanvasTests.html#TestProject1_CanvasTests_Test_Circle_InvalidRadius_ThrowsException
+  name: Test_Circle_InvalidRadius_ThrowsException
+  nameWithType: CanvasTests.Test_Circle_InvalidRadius_ThrowsException
+  fullName: TestProject1.CanvasTests.Test_Circle_InvalidRadius_ThrowsException
+- uid: TestProject1.CanvasTests.Test_SetColour_UpdatesPenColor*
+  commentId: Overload:TestProject1.CanvasTests.Test_SetColour_UpdatesPenColor
+  href: TestProject1.CanvasTests.html#TestProject1_CanvasTests_Test_SetColour_UpdatesPenColor
+  name: Test_SetColour_UpdatesPenColor
+  nameWithType: CanvasTests.Test_SetColour_UpdatesPenColor
+  fullName: TestProject1.CanvasTests.Test_SetColour_UpdatesPenColor
+- uid: TestProject1.CanvasTests.Test_Clear_ResetsCanvas*
+  commentId: Overload:TestProject1.CanvasTests.Test_Clear_ResetsCanvas
+  href: TestProject1.CanvasTests.html#TestProject1_CanvasTests_Test_Clear_ResetsCanvas
+  name: Test_Clear_ResetsCanvas
+  nameWithType: CanvasTests.Test_Clear_ResetsCanvas
+  fullName: TestProject1.CanvasTests.Test_Clear_ResetsCanvas
+- uid: TestProject1.CanvasTests.Test_Rect_DrawsRectangleCorrectly*
+  commentId: Overload:TestProject1.CanvasTests.Test_Rect_DrawsRectangleCorrectly
+  href: TestProject1.CanvasTests.html#TestProject1_CanvasTests_Test_Rect_DrawsRectangleCorrectly
+  name: Test_Rect_DrawsRectangleCorrectly
+  nameWithType: CanvasTests.Test_Rect_DrawsRectangleCorrectly
+  fullName: TestProject1.CanvasTests.Test_Rect_DrawsRectangleCorrectly
+- uid: TestProject1.CanvasTests.Test_Tri_DrawsTriangleCorrectly*
+  commentId: Overload:TestProject1.CanvasTests.Test_Tri_DrawsTriangleCorrectly
+  href: TestProject1.CanvasTests.html#TestProject1_CanvasTests_Test_Tri_DrawsTriangleCorrectly
+  name: Test_Tri_DrawsTriangleCorrectly
+  nameWithType: CanvasTests.Test_Tri_DrawsTriangleCorrectly
+  fullName: TestProject1.CanvasTests.Test_Tri_DrawsTriangleCorrectly
+- uid: TestProject1.CanvasTests.Test_WriteText_AddsTextToCanvas*
+  commentId: Overload:TestProject1.CanvasTests.Test_WriteText_AddsTextToCanvas
+  href: TestProject1.CanvasTests.html#TestProject1_CanvasTests_Test_WriteText_AddsTextToCanvas
+  name: Test_WriteText_AddsTextToCanvas
+  nameWithType: CanvasTests.Test_WriteText_AddsTextToCanvas
+  fullName: TestProject1.CanvasTests.Test_WriteText_AddsTextToCanvas
+- uid: TestProject1.CanvasTests.Test_Circle_DrawsCircleOutlineCorrectly*
+  commentId: Overload:TestProject1.CanvasTests.Test_Circle_DrawsCircleOutlineCorrectly
+  href: TestProject1.CanvasTests.html#TestProject1_CanvasTests_Test_Circle_DrawsCircleOutlineCorrectly
+  name: Test_Circle_DrawsCircleOutlineCorrectly
+  nameWithType: CanvasTests.Test_Circle_DrawsCircleOutlineCorrectly
+  fullName: TestProject1.CanvasTests.Test_Circle_DrawsCircleOutlineCorrectly
+- uid: TestProject1.CanvasTests.CustomCommandFactory_TriCommand_ReturnsCorrectInstance*
+  commentId: Overload:TestProject1.CanvasTests.CustomCommandFactory_TriCommand_ReturnsCorrectInstance
+  href: TestProject1.CanvasTests.html#TestProject1_CanvasTests_CustomCommandFactory_TriCommand_ReturnsCorrectInstance
+  name: CustomCommandFactory_TriCommand_ReturnsCorrectInstance
+  nameWithType: CanvasTests.CustomCommandFactory_TriCommand_ReturnsCorrectInstance
+  fullName: TestProject1.CanvasTests.CustomCommandFactory_TriCommand_ReturnsCorrectInstance
+- uid: TestProject1.CanvasTests.CustomCommandFactory_WriteCommand_ReturnsCorrectInstance*
+  commentId: Overload:TestProject1.CanvasTests.CustomCommandFactory_WriteCommand_ReturnsCorrectInstance
+  href: TestProject1.CanvasTests.html#TestProject1_CanvasTests_CustomCommandFactory_WriteCommand_ReturnsCorrectInstance
+  name: CustomCommandFactory_WriteCommand_ReturnsCorrectInstance
+  nameWithType: CanvasTests.CustomCommandFactory_WriteCommand_ReturnsCorrectInstance
+  fullName: TestProject1.CanvasTests.CustomCommandFactory_WriteCommand_ReturnsCorrectInstance
+- uid: TestProject1.CanvasTests.CustomCommandFactory_InvalidCommand_ThrowsException*
+  commentId: Overload:TestProject1.CanvasTests.CustomCommandFactory_InvalidCommand_ThrowsException
+  href: TestProject1.CanvasTests.html#TestProject1_CanvasTests_CustomCommandFactory_InvalidCommand_ThrowsException
+  name: CustomCommandFactory_InvalidCommand_ThrowsException
+  nameWithType: CanvasTests.CustomCommandFactory_InvalidCommand_ThrowsException
+  fullName: TestProject1.CanvasTests.CustomCommandFactory_InvalidCommand_ThrowsException

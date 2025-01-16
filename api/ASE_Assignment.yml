@@ -1,0 +1,79 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment
+  commentId: N:ASE_Assignment
+  id: ASE_Assignment
+  children:
+  - ASE_Assignment.CommandCheck
+  - ASE_Assignment.CsCommandFactory
+  - ASE_Assignment.CsMethodCommand
+  - ASE_Assignment.CsStoredProgram
+  - ASE_Assignment.CsTriangleCommand
+  - ASE_Assignment.CsWriteCommand
+  - ASE_Assignment.Form2
+  - ASE_Assignment.Frame
+  - ASE_Assignment.SyntaxCheck
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment
+  nameWithType: ASE_Assignment
+  fullName: ASE_Assignment
+  type: Namespace
+  assemblies:
+  - ASE Assignment
+references:
+- uid: ASE_Assignment.CommandCheck
+  commentId: T:ASE_Assignment.CommandCheck
+  href: ASE_Assignment.CommandCheck.html
+  name: CommandCheck
+  nameWithType: CommandCheck
+  fullName: ASE_Assignment.CommandCheck
+- uid: ASE_Assignment.CsCommandFactory
+  commentId: T:ASE_Assignment.CsCommandFactory
+  href: ASE_Assignment.CsCommandFactory.html
+  name: CsCommandFactory
+  nameWithType: CsCommandFactory
+  fullName: ASE_Assignment.CsCommandFactory
+- uid: ASE_Assignment.CsMethodCommand
+  commentId: T:ASE_Assignment.CsMethodCommand
+  href: ASE_Assignment.CsMethodCommand.html
+  name: CsMethodCommand
+  nameWithType: CsMethodCommand
+  fullName: ASE_Assignment.CsMethodCommand
+- uid: ASE_Assignment.CsStoredProgram
+  commentId: T:ASE_Assignment.CsStoredProgram
+  href: ASE_Assignment.CsStoredProgram.html
+  name: CsStoredProgram
+  nameWithType: CsStoredProgram
+  fullName: ASE_Assignment.CsStoredProgram
+- uid: ASE_Assignment.CsTriangleCommand
+  commentId: T:ASE_Assignment.CsTriangleCommand
+  href: ASE_Assignment.CsTriangleCommand.html
+  name: CsTriangleCommand
+  nameWithType: CsTriangleCommand
+  fullName: ASE_Assignment.CsTriangleCommand
+- uid: ASE_Assignment.CsWriteCommand
+  commentId: T:ASE_Assignment.CsWriteCommand
+  href: ASE_Assignment.CsWriteCommand.html
+  name: CsWriteCommand
+  nameWithType: CsWriteCommand
+  fullName: ASE_Assignment.CsWriteCommand
+- uid: ASE_Assignment.Form2
+  commentId: T:ASE_Assignment.Form2
+  href: ASE_Assignment.Form2.html
+  name: Form2
+  nameWithType: Form2
+  fullName: ASE_Assignment.Form2
+- uid: ASE_Assignment.Frame
+  commentId: T:ASE_Assignment.Frame
+  href: ASE_Assignment.Frame.html
+  name: Frame
+  nameWithType: Frame
+  fullName: ASE_Assignment.Frame
+- uid: ASE_Assignment.SyntaxCheck
+  commentId: T:ASE_Assignment.SyntaxCheck
+  href: ASE_Assignment.SyntaxCheck.html
+  name: SyntaxCheck
+  nameWithType: SyntaxCheck
+  fullName: ASE_Assignment.SyntaxCheck
